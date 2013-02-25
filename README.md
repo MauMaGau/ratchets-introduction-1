@@ -1,5 +1,5 @@
 <div class="legible-width">
-	<p><a href="http://socketo.me/">Ratchet</a> is a websocket server written in php. It's a platform that enables the server and the client to communicate freely. Unlike with regular http, which relies on the client asking for information and the server replying, ws (the websocket protocol) allows the server to start a two-way conversation. The best example is a chat server:</p>
+	<p><a href="http://socketo.me/">Ratchet</a> is a websocket server written in php by <a href="https://github.com/cboden">Chris Boden</a>. It's a platform that enables the server and the client to communicate freely. Unlike with regular http, which relies on the client asking for information and the server replying, ws (the websocket protocol) allows the server to start a two-way conversation. The best example is a chat server:</p>
 	<ol>
 		<li>Jack & Jill visit your chat page from seperate computers</li>
 		<li>Jack enters "hello" in to a form and clicks the submit button</li>
