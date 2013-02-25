@@ -1,5 +1,5 @@
 <div class="legible-width">
-  <p><a href="http://socketo.me/">Ratchet</a> is a websocket server written in php. It's a platform that enables the server and the client to communicate freely. Unlike with regular http, which relies on the client asking for information and the server replying, ws (the websocket protocol) allows the server to start a two-way conversation. The best example is a chat server:</p>
+	<p><a href="http://socketo.me/">Ratchet</a> is a websocket server written in php. It's a platform that enables the server and the client to communicate freely. Unlike with regular http, which relies on the client asking for information and the server replying, ws (the websocket protocol) allows the server to start a two-way conversation. The best example is a chat server:</p>
 	<ol>
 		<li>Jack & Jill visit your chat page from seperate computers</li>
 		<li>Jack enters "hello" in to a form and clicks the submit button</li>
@@ -13,7 +13,7 @@
 
 	<p>This, the first part, is an introduction. It will give you a brief overview of what we'll be making. The <a title="Coming real soon!">second part</a> is a step-by-step tutorial to guide you through setting up the necessary components, and the <a title="Watch this space">third</a> part covers writing a websocket app.</p>
 
-	<p>I'm going to be installing ratchet on a linux server. I'm told it's possible on Windows, but I tried and gave up pretty quickly. I'll be using Ubuntu, because I am a linux noob, but the instructions should be exactly the same for any debian-based distro. If you find any errors then please either let me know in the comments, or <a href="https://gist.github.com/MauMaGau/5034237">fork</a> this document and submit a pull request.</p>
+	<p>I'm going to be installing ratchet on a linux server. I'm told it's possible on Windows, but I tried and gave up pretty quickly. I'll be using Ubuntu, because I am a linux noob, but the instructions should be exactly the same for any debian-based distro. If you find any errors then please either let me know in the comments, or <a href="https://github.com/MauMaGau">fork</a> this document and submit a pull request.</p>
 
 	<p>Ok, pull your work boots on, it's time to get down to business</p>
 
@@ -51,5 +51,5 @@
 
 	<p>And thus, the holy triad is born. The power of our standard LAMP stack, the interactivety of client JavaScript, and the realtime awesomness of websockets.</p>
 
-	<p><i>If you have anything to add, please leave a comment or 
+	<p><i>If you have anything to add, please leave a comment or submit a <a href="https://github.com/MauMaGau">pull request</a></i></p>
 </div>
