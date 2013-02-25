@@ -37,7 +37,7 @@
 
 	<p>For this tutorial, and I expect for the foreseeable future of my development career, we're going to go with the second option.</p>
 	<p>Firstly, it would be a huge upheaval to start writing web apps purely using websockets. The current system of request>reply is ingrained in so much of what we do (our frameworks, our libraries, our mindsets) that we'd be starting almost from zero.</p>
-	<p>Secondly, websockets isn't supported by every browser yet. And by every browser, I mean older browsers. Modern <a href="http://caniuse.com/websockets">browser support</a> is actually fantastic - IE10 supports websockets, as do most mobile browsers (and of course Chrome, Firefox, Safari, Opera). So for mainstream web apps, websockets are gonna be a nice-to-have, but shouldn't be required (just like JavaScript used to be).</p>
+	<p>Secondly, websockets isn't supported by every browser yet. And by every browser, I mean older browsers. Modern <a href="http://caniuse.com/websockets">browser support</a> is actually fantastic - IE10 supports websockets, as do most mobile browsers (and of course Chrome, Firefox, Safari, Opera). So for mainstream web apps, websockets are gonna be a nice-to-have, but shouldn't be required (just like javascript used to be).</p>
 
 	<p>So, our new web app is going to be running off two servers - the regular Apache server, and the brand-spanking new websockets server. But don't worry, we're not going to need any extra hardware (until our app starts trending on HN at least). A websocket server will quite happily live in the same house as Apache. In fact, the two of them will become best buds and talk to each other regularly. Together with the client, they'll form a three-way partnership -</p>
 	<dl class="dl-horizontal">
@@ -49,7 +49,7 @@
 		<dd>We can send a notification our from our regular web app to the websocket server, and in turn, the client</dd>
 	</dl>
 
-	<p>And thus, the holy triad is born. The power of our standard LAMP stack, the interactivety of client JavaScript, and the realtime awesomness of websockets.</p>
+	<p>And thus, the triad is born. The power of our standard LAMP stack, the interactivety of client javascript, and the realtime awesomness of websockets.</p>
 
 	<p><i>If you have anything to add, please leave a comment or submit a <a href="https://github.com/MauMaGau">pull request</a></i></p>
 </div>
